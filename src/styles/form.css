@@ -1,0 +1,20 @@
+@layer components {
+  .form-input,
+  .form-textarea,
+  .form-select,
+  .from-multiselect {
+    @apply block w-full rounded-md border-gray-300 focus:border-violet-600 focus:ring-violet-600;
+  }
+
+  .form-textarea {
+    @apply resize-none;
+  }
+
+  .form-checkbox {
+    @apply focus:ring-violet-600 rounded border-gray-400 text-violet-600;
+  }
+
+  .form-radio {
+    @apply border-gray-400 text-violet-600 focus:ring-violet-600;
+  }
+}
